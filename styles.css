@@ -31,7 +31,12 @@ body {
     text-decoration: none;
     font-weight: 700;
 }
-
+#menu-icon {
+    font-size: 36px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
 .navbar a {
     display: inline-block;
     font-size: 18px;
@@ -257,5 +262,56 @@ form textarea {
     .home-image img,
     .about-img img {
         width: 250px;
+    }
+}
+@media (max-width: 768px) {
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 1rem 3%;
+        background: #081b29;
+        transition: .3s;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-image img,
+    .about-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        font-size: 40px;
     }
 }
