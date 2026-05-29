@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     z-index: 100;
 }
@@ -31,12 +31,14 @@ body {
     text-decoration: none;
     font-weight: 700;
 }
+
 #menu-icon {
     font-size: 36px;
     color: #fff;
     display: none;
     cursor: pointer;
 }
+
 .navbar a {
     display: inline-block;
     font-size: 18px;
@@ -192,7 +194,7 @@ section {
 .project-card:hover {
     transform: translateY(-10px);
     border-color: #0ef;
-    box-shadow: 0 0 20px rgba(0,238,255,0.4);
+    box-shadow: 0 0 20px rgba(0, 238, 255, 0.4);
 }
 
 .skill-box i {
@@ -264,6 +266,7 @@ form textarea {
         width: 250px;
     }
 }
+
 @media (max-width: 768px) {
 
     #menu-icon {

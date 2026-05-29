@@ -6,7 +6,7 @@ menuIcon.onclick = () => {
 };
 var typed = new Typed(".text", {
     strings: ["Aspiring Full Stack Developer",
-        
+
         "Aspiring Frontend Web Developer",
         "Spring Boot Learner"],
     typeSpeed: 80,
